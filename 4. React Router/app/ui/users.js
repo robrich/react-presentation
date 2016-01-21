@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 export default React.createClass({
     render: function() {
         return (
-            <div class="app">
+            <div className="app">
                 <nav>
                     <Link to="/">Home</Link>
                     <Link to="/users">Users</Link>
@@ -13,6 +13,6 @@ export default React.createClass({
                     <h1>Users</h1>
                 </main>
             </div>
-        )
+        );
     }
 });

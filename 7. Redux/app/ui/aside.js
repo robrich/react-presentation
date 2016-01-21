@@ -6,6 +6,6 @@ export default React.createClass({
             <aside>
                 Do we have users? {this.props.hasUsers ? 'Yes' : 'No'}
             </aside>
-        )
+        );
     }
 });

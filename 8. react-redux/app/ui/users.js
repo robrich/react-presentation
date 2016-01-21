@@ -6,13 +6,13 @@ export default React.createClass({
             <div className="users-page">
                 <h1>App: Users</h1>
                 <ul>
-                    {this.props.users.map(function(user, i) {
+                    {this.props.users.map(function(user) {
                         return (
-                            <li key={i}>{user.name}</li>
+                            <li key={user.id}>{user.name}</li>
                         );
                     })}
                 </ul>
             </div>
-        )
+        );
     }
 });

@@ -7,24 +7,24 @@ export default React.createClass({
     getInitialState: function() {
         return {
             hasUsers: false
-        }
+        };
     },
 
     componentWillMount: function() {
        var _this = this;
         store.subscribe(function() {
-            var currentStore = store.getState()
-            console.log(currentStore);
+            var currentStore = store.getState();
+            //console.log(currentStore);
             _this.setState({
                 hasUsers: currentStore.userReducer.users.length ? true : false
-            })
-        })
+            });
+        });
 
     },
 
     render: function() {
         return (
             <Aside hasUsers={this.state.hasUsers} />
-        )
+        );
     }
 });

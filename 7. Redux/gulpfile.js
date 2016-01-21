@@ -30,7 +30,7 @@ gulp.task('serve:web', serve({
 
 // Watch
 gulp.task('watch', function() {
-    gulp.watch('./app/**/*', ['webpack'])
+    gulp.watch('./app/**/*', ['webpack']);
 })
 
 gulp.task('default', ['serve:api', 'serve:web', 'webpack', 'watch']);

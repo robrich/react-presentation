@@ -8,7 +8,7 @@ export default React.createClass({
     getInitialState: function() {
         return {
             users: []
-        }
+        };
     },
 
     componentWillMount: function() {
@@ -16,7 +16,7 @@ export default React.createClass({
         getUsers().then(function(response) {
             _this.setState({
                 users: response.data
-            })
+            });
         }).catch(function(err) {
             console.log(err);
         });
@@ -25,6 +25,6 @@ export default React.createClass({
     render: function() {
         return (
             <Users users={this.state.users} />
-        )
+        );
     }
 });

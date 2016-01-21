@@ -31,7 +31,7 @@ open index.html
 ### 2. First React Component
  - React
  - ES6 with Babel
- - React with JSX
+ - Concept: React with JSX
 
 
 Install

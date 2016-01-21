@@ -13,6 +13,6 @@ export default React.createClass({
                     {this.props.children}
                 </main>
             </div>
-        )
+        );
     }
 });

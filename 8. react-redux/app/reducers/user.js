@@ -7,7 +7,7 @@ export default function(state = userInitialState, action) {
         
         case 'GET_USERS':
 
-            var newState = Object.assign({}, state)
+            var newState = Object.assign({}, state);
             newState.users = action.users;
             return newState;
 

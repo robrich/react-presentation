@@ -23,4 +23,4 @@ module.exports = {
         root: path.resolve('./app'),
         extenstions: ['', '.js']
     }
-}
+};

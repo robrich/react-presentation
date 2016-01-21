@@ -7,7 +7,7 @@ export function getUsers() {
         store.dispatch({
             type: 'GET_USERS',
             users: response.data
-        })
+        });
 
         return response;
 

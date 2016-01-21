@@ -6,6 +6,6 @@ export default React.createClass({
             <nav>
                 {this.props.children}
             </nav>
-        )
+        );
     }
 });

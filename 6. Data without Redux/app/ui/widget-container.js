@@ -12,6 +12,6 @@ export default React.createClass({
     render: function() {
         return (
             <Widgets widgetData={this.state.widgetData} />
-        )
+        );
     }
 });
